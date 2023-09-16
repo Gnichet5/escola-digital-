@@ -1,0 +1,47 @@
+.header {
+    list-style-type: none;
+    background-color: #021B30;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #menu a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Questrial', sans-serif;
+    font-size: x-large;
+ }
+
+  #menu li {
+    display: inline;
+
+
+  }
+  
+  .Cursos{
+    margin-right: 203px;
+    margin-left: 310px;
+    }
+    .Cadastro{
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+    
+    .Piola {
+        font-size: xx-large;
+        background-color: #988B8E;
+        font-family: 'Questrial', sans-serif;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-top: 23px;
+        padding-bottom: 30px;
+        padding-left: 200px;
+        padding-right: 200px;
+        border-top-left-radius: 0; 
+        border-bottom-left-radius: 0; 
+        border-top-right-radius: 15px; 
+        border-bottom-right-radius: 15px; 
+      }
+      
