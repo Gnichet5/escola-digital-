@@ -38,9 +38,9 @@
    .Piola {
     display: inline-block; /* Adicione esta linha para torná-lo um elemento em linha */
     font-size: xx-large;
-    color: #021b30;
+     color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    background-color: #988b8e;
+    background-color: #4B5842;
     font-family: "Questrial", sans-serif;
     margin-left: 0;
     margin-right: 290px;
