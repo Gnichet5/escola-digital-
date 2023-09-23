@@ -38,7 +38,7 @@
    .Piola {
     display: inline-block; /* Adicione esta linha para torná-lo um elemento em linha */
     font-size: xx-large;
-     color: white;
+    color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     background-color: #4B5842;
     font-family: "Questrial", sans-serif;
@@ -111,11 +111,12 @@ th, td {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
-     font-family: 'Lexend Exa', sans-serif;
+    font-family: 'Lexend Exa', sans-serif;
 }
 
 th {
     background-color: #f2f2f2;
+
 }
 
 .excluir-button {
@@ -130,5 +131,19 @@ th {
   display: flex;
   justify-content: center;
   font-family: 'Lexend Exa', sans-serif;
-  margin-top: 20px;
+  margin-top: 40px;
 }
+
+.bp{
+  display: flex;
+  justify-content: center;
+  }
+
+  .bpt {
+    background: #4B5842;
+    font-family: 'Lexend Exa', sans-serif;
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+  }
+ 
