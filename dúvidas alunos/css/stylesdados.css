@@ -1,0 +1,126 @@
+#cabeçalho {
+  list-style-type: none;
+  background-color: #021b30;
+ height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ width: 100%;
+}
+
+#menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#menu a {
+  text-decoration: none;
+  color: white;
+  font-family: "Questrial", sans-serif;
+  font-size: x-large;
+
+}
+
+#menu li {
+  display: inline;
+}
+
+
+.logo {
+  margin-left: 480px;
+  margin-right:10px;
+  width: 70x;
+ height: 70px;
+ }
+
+ 
+ .ajuda {
+  color: white;
+  font-family: 'Lexend Exa', sans-serif;
+  font-size: x-large;
+  white-space: nowrap; /* Impede que o texto seja quebrado em várias linhas */
+  margin-left: 570px;
+  margin-right: 70px;
+ 
+}
+#retornar {
+  position: fixed;
+  top: 10px;
+  left: 5px;
+  background-color: #111B4D;
+  font-size: 60px;
+  height: 115px;
+  width: 100px;
+  margin-left: 10px;
+  align-self: self-start;
+  color: #D9D9D9;
+  background: none;
+  border: none;
+  cursor: pointer; 
+margin-left: 20px;
+  margin-right: 150px;
+  margin-top: 05px;
+}
+#retornar i:hover{
+  transform: scale(1.05);
+  transition: box-shadow 1.2s ease;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.396);
+  color: #bebebe;
+}
+#retornar a:visited{
+  position: fixed;
+  top: 10px;
+  left: 5px;
+  background-color: #111B4D;
+  font-size: 60px;
+  height: 115px;
+  width: 100px;
+  margin-left: 10px;
+  align-self: self-start;
+  color: white;
+  background: none;
+  border: none;
+  cursor: pointer; 
+}
+#retornar i:hover{
+  transform: scale(1.05);
+  transition: box-shadow 1.2s ease;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.396);
+  color: #bebebe;
+}
+#retornar a:visited{
+  color: #f8f2f2;
+}
+
+#retornar a:link{
+  color: #f8f2f2;
+}
+
+
+
+
+
+
+.bloco-de-notas {
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: 100%;
+  border-radius: 20px;
+}
+#id{
+  margin-top: 100px;
+ 
+}
+input[type="email"],
+textarea,
+button {
+  display: block;
+  margin: 10px auto;
+  margin-top: 40px;
+  border-radius: 10px;
+}
